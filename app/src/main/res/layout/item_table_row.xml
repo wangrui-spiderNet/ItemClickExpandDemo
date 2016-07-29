@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_target"
+            style="@style/textNormal"
+            android:text="家长：" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            style="@style/textNormal"
+            android:singleLine="true"
+            android:text="瞎说" />
+
+    <View style="@style/viewLine" />
+</TableRow>
+
